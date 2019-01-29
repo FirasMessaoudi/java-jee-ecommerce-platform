@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProjetEjb"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/wildfly-10.0.0.Final/bin/client/jboss-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/wildfly-10.0.0.Final/modules/system/layers/base/org/hibernate/main/hibernate-core-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/wildfly-10.0.0.Final/modules/system/layers/base/org/hibernate/main/hibernate-entitymanager-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/wildfly-10.0.0.Final/modules/system/layers/base/org/hibernate/main/hibernate-envers-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/wildfly-10.0.0.Final/modules/system/layers/base/org/hibernate/main/hibernate-java8-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/Desktop/Addons/jcalendar.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/Desktop/Addons/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Scofield/Desktop/Addons/jdatepicker-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

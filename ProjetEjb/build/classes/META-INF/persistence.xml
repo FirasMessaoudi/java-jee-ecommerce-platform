@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="ProjetEjb" transaction-type="JTA">
+	    <jta-data-source>java:/MySqlDS</jta-data-source>
+	    <class>metier.entities.Categorie</class>
+	    <class>metier.entities.Client</class>
+	    <class>metier.entities.Commande</class>
+	    <class>metier.entities.Compte</class>
+	    <class>metier.entities.Lign_Comm</class>
+	    <class>metier.entities.Lign_comm_Pk</class>
+	    <class>metier.entities.Ligne_Produit_Prom</class>
+	    <class>metier.entities.Ligne_Produit_Prom_Pk</class>
+	    <class>metier.entities.Produits</class>
+	    <class>metier.entities.Promotion</class>
+	    <class>metier.entities.Role</class>
+	    <properties>
+	        <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdtest" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />
+	        <property name="hibernate.hbm2ddl.auto" value="update"/>
+	        <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+	    </properties>
+	</persistence-unit>
+</persistence>
